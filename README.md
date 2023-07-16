@@ -1,16 +1,20 @@
-### Hi there 👋
+### hello 👋 
+____
+### my name is archangel 
 
-<!--
-**archangel-12/archangel-12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 currently still in college, so i hope you folks not expecting that much for me
+  
+- 🌱 currently learning about:
+  - proggramming, developing stuff like that,
+  - history :)
 
-Here are some ideas to get you started:
+- 💬 Ask me about:
+  - all things related into history
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 📫 How to reach me:
+  
+- ⚡ Fun fact: i don't know what to do in real life :)
+
+  
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=archangel-12&layout=compact)
