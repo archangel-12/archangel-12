@@ -1,6 +1,6 @@
 ### hi there 👋 
 ____
-### my name is Archangel (not my real name, actually, due to privacy reasons), and uh, what else should I write here? ah yes...
+### my name is Archangel (not a real name actually, due to privacy reasons), and uh, what else should I write here? ah yes...
 
 - 🔭 currently still in college, so I hope you folks don't have high expectations of me as i'm almost dumb anyway :)
   
