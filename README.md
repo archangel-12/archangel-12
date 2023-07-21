@@ -1,4 +1,4 @@
-### hi there 👋 
+### hello :)
 ____
 ### my name is archangel (not a real name actually), and uh, what else should I write here? ah yes...
 
