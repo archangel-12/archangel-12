@@ -1,6 +1,6 @@
 ### hi there 👋 
 ____
-### my name is Archangel (not a real name actually, due to privacy reasons), and uh, what else should I write here? ah yes...
+### my name is archangel (not a real name actually), and uh, what else should I write here? ah yes...
 
 - 🔭 currently still in college, so I hope you folks don't have high expectations of me as i'm almost dumb anyway :)
   
@@ -18,6 +18,7 @@ ____
   - often seen as a potential public enemy number one because I have a tendency to question things that defy logic. For example: "*why would someone choose to undergo genital mutilation and willingly expose themselves to a plethora of chemicals?*"
   - often misunderstood irl
   - least likely to follow the rules :)
+  - awkward as hell
 ___
 
 ### tools and languages i used, so far :) :
@@ -41,7 +42,7 @@ ___
   <img alt="lol" width="333px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=archangel-12&hide_progress=true" style="position: relative; z-index: 2;">
 </div>
 
-i guess that's it. i got nothing else to show :(
+i guess that's it. i got nothing else to show :)
 
 
 
