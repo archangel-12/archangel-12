@@ -18,9 +18,6 @@ ____
   - often seen as a potential public enemy number one because I have a tendency to question things that defy logic. For example: "*why would someone choose to undergo genital mutilation and willingly expose themselves to a plethora of chemicals?*"
   - often misunderstood irl
   - least likely to follow the rules :)
-
-### what i'm listening right now
-[<img src="https://readme-orcin-six.vercel.app/api/spotify-playing" alt="Spotify now playing" width="350" />](https://open.spotify.com/user/31m46cu6cyetx22aefgan7ga4h6a)
 ___
 
 ### tools and languages i used, so far :) :
