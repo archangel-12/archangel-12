@@ -13,7 +13,7 @@ ____
     
 - 📫 How to reach me:
   - Discord dawg :) because i like memes. *memes have literally saved my life and kept me mentally sound*
-    [![Discord Presence](https://lanyard.cnrad.dev/api/1086625985761382430?theme=dark&hideDiscrim=true&borderRadius=30px&idleMessage="what's%20going%20with%20you,%20what%20are%20you%20%20talking%20about%20?you%20sound%20insane%20:(%20"%20 )](https://discord.com/users/1086625985761382430)
+    [![Discord Presence](https://lanyard.cnrad.dev/api/1086625985761382430?theme=dark&hideDiscrim=true&borderRadius=30px&idleMessage="either%20hunting%20some%20good/offensive%20memes%20or%20plotting%20something%20bad%20for%20?personal%20benefit%20insane%20)](https://discord.com/users/1086625985761382430)
   
 - ⚡ Fun fact:
   - often seen as a potential public enemy number one because I have a tendency to question things that defy logic. For example: "*why would someone choose to undergo genital mutilation and willingly expose themselves to a plethora of chemicals?*"
