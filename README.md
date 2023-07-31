@@ -33,6 +33,7 @@ ___
 <img align="left" alt="css" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="padding-right:10px;"/>
 <img align="left" alt="Node.js" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="padding-right:10px;"/>
 <img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;"/>
+<img align="left" alt="Gitpod" width="30px" src="https://avatars.githubusercontent.com/u/37021919?s=200&v=4" style="padding-right:10px;"/>
 
 <br />
 <br />
