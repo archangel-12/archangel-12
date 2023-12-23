@@ -23,17 +23,22 @@ ____
 ___
 
 ### tools and languages i used, so far :) :
-<img align="left" alt="vsc" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
-<img align="left" alt="python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="padding-right:10px;"/>
-<img align="left" alt="javascript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;"/>
-<img align="left" alt="tf" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" style="padding-right:10px;"/>
-<img align="left" alt="gc" width="35px" src="https://lh3.googleusercontent.com/Bxp8IrKWEa-5KlyJp8jSXI5TAT7l0zA2XdEvdDtkEznVzhHLv01sSY82xu5nb1pfze121U6VHxwjc8HC31847_2GUzB-LJ1G3f4kcw" style="padding-right:10px;"/>
+<img align="left" alt="python" width="26px" src="https://cdn.worldvectorlogo.com/logos/python-5.svg" style="padding-right:10px;" />
+<img align="left" alt="tensorflow" width="26px" src="https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg" style="padding-right:10px;"/>
+<img align="left" alt="javascript" width="26px" src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" style="padding-right:10px;"/>
+<img align="left" alt="vscode" width="26px" src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" style="padding-right:10px;"/>
+<img align="left" alt="codespaces" width="26px" src="https://github.gallerycdn.vsassets.io/extensions/github/codespaces/1.16.2/1698357221330/Microsoft.VisualStudio.Services.Icons.Default" style="padding-right:10px;"/>
+<img align="left" alt="vite" width="26px" src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" style="padding-right:10px;"/>
+<img align="left" alt="next" width="26px" src="https://cdn.worldvectorlogo.com/logos/next-js.svg" style="padding-right:10px;"/>
+<img align="left" alt="bun" width="30px" src="https://bun.sh/logo.svg" style="padding-right:10px;"/>
+<img align="left" alt="vercel" width="26px" src="https://www.svgrepo.com/show/361653/vercel-logo.svg" style="padding-right:10px;"/>
 <img align="left" alt="repl.it" width="35px" src="https://upload.wikimedia.org/wikipedia/commons/7/78/New_Replit_Logo.svg" style="padding-right:10px;"/>
-<img align="left" alt="html" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;"/>
-<img align="left" alt="css" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="padding-right:10px;"/>
-<img align="left" alt="Node.js" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="padding-right:10px;"/>
-<img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;"/>
-<img align="left" alt="Gitpod" width="30px" src="https://avatars.githubusercontent.com/u/37021919?s=200&v=4" style="padding-right:10px;"/>
+<img align="left" alt="html" width="26px" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" style="padding-right:10px;"/>
+<img align="left" alt="css" width="26px" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" style="padding-right:10px;"/>
+<img align="left" alt="tailwind" width="40px" src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" style="padding-right:10px;"/>
+<img align="left" alt="node" width="26px" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" style="padding-right:10px;"/>
+<img align="left" alt="bash" width="26px" src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" style="padding-right:10px;"/>
+<img align="left" alt="gitpod" width="30px" src="https://avatars.githubusercontent.com/u/37021919?s=200&v=4" style="padding-right:10px;"/>
 
 <br />
 <br />
