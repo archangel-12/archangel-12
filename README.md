@@ -2,7 +2,7 @@
 ____
 ### my name is archangel (not a real name actually), and uh, what else should I write here? ah yes...
 
-- 🔭 currently still in college, so I hope you folks don't have high expectations of me as i'm almost dumb anyway :)
+- 🔭 currently still in college, so I hope you folks don't have high expectations of me as i'm dumb anyway :)
   
 - 🌱 currently learning about:
   - programming and developing various things,
@@ -18,7 +18,6 @@ ____
 - ⚡ Fun fact:
   - often seen as a potential public enemy number one because I have a tendency to question things that defy logic. For example: "*why would someone choose to undergo genital mutilation and willingly expose themselves to a plethora of chemicals?*"
   - often misunderstood irl
-  - least likely to follow the rules :)
   - awkward as hell
 ___
 
@@ -26,6 +25,7 @@ ___
 <img align="left" alt="python" width="26px" src="https://cdn.worldvectorlogo.com/logos/python-5.svg" style="padding-right:10px;" />
 <img align="left" alt="tensorflow" width="26px" src="https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg" style="padding-right:10px;"/>
 <img align="left" alt="javascript" width="26px" src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" style="padding-right:10px;"/>
+<img align="left" alt="typescript" width="26px" src="https://cdn.worldvectorlogo.com/logos/typescript.svg" style="padding-right:10px;"/>
 <img align="left" alt="vscode" width="26px" src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" style="padding-right:10px;"/>
 <img align="left" alt="codespaces" width="26px" src="https://github.gallerycdn.vsassets.io/extensions/github/codespaces/1.16.2/1698357221330/Microsoft.VisualStudio.Services.Icons.Default" style="padding-right:10px;"/>
 <img align="left" alt="vite" width="26px" src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" style="padding-right:10px;"/>
