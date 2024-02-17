@@ -17,7 +17,7 @@ ____
   - i usually active in [here](https://discord.gg/DHWfHRWe2V)
     
 - ⚡ Fun fact:
-  - often seen as a potential public enemy number one because I have a tendency to question things that defy logic. For example: "*why would someone choose to undergo genital mutilation and willingly expose themselves to a plethora of chemicals?*"
+  - often seen as a potential public enemy number one because I have a tendency to question things. For example: "*why would someone choose to undergo genital mutilation and willingly expose themselves to a plethora of chemicals?*"
   - often misunderstood irl
   - awkward as hell
   - i do make music or beat occasionally. sometimes in fl studio but hey i'm comfortable with ableton :)
@@ -42,6 +42,7 @@ ___
 <img align="left" alt="node" width="26px" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" style="padding-right:10px;"/>
 <img align="left" alt="bash" width="26px" src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" style="padding-right:10px;"/>
 <img align="left" alt="gitpod" width="30px" src="https://avatars.githubusercontent.com/u/37021919?s=200&v=4" style="padding-right:10px;"/>
+<img align="left" alt="idx" width="30px" src="https://developers.google.com/static/idx/images/icon-192.png" style="padding-right:10px;"/>
 
 <br />
 <br />
