@@ -28,7 +28,6 @@ ___
 <img align="left" alt="python" width="26px" src="https://cdn.worldvectorlogo.com/logos/python-5.svg" style="padding-right:10px;" />
 <img align="left" alt="javascript" width="26px" src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" style="padding-right:10px;"/>
 <img align="left" alt="typescript" width="27px" src="https://cdn.worldvectorlogo.com/logos/typescript.svg" style="padding-right:10px;"/>
-<img align="left" alt="vscode" width="26px" src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" style="padding-right:10px;"/>
 <img align="left" alt="codespaces" width="26px" src="https://github.gallerycdn.vsassets.io/extensions/github/codespaces/1.16.2/1698357221330/Microsoft.VisualStudio.Services.Icons.Default" style="padding-right:10px;"/>
 <img align="left" alt="vite" width="26px" src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" style="padding-right:10px;"/>
 <img align="left" alt="next" width="26px" src="https://cdn.worldvectorlogo.com/logos/next-js.svg" style="padding-right:10px;"/>
