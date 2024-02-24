@@ -57,5 +57,10 @@
 
 <br/>
 
-### stats?
+### stats n currently listening to
 
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31m46cu6cyetx22aefgan7ga4h6a&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=31m46cu6cyetx22aefgan7ga4h6a&redirect=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=archangel-12&hide_progress=true)
+
+<br/>
