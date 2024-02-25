@@ -61,14 +61,14 @@ ___
   <tr>
     <td>
       <p align="left">
-        <a href="https://spotify-github-profile.vercel.app">
+        <a href="https://github.com/kittinan/spotify-github-profile">
           <img src="https://spotify-github-profile.vercel.app/api/view?uid=31m46cu6cyetx22aefgan7ga4h6a&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" width="300px" />
         </a>
       </p>
     </td>
     <td>
       <p align="right">
-        <a href="https://github-readme-stats.vercel.app">
+        <a href="https://github.com/anuraghazra/github-readme-stats">
           <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=archangel-12&hide_progress=true" />
         </a>
       </p>
