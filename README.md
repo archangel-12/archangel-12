@@ -39,8 +39,6 @@
 </p>
 </tr></table>
 
-<br />
-
 ### in progress learning
 <table align="center"><tr>
 
@@ -51,29 +49,25 @@
 </p>
 
 </tr></table>
+
 <br />
 
-___
-
-### stats n currently listening to
-
+### yeah i think that's it...
 <table align="center">
   <tr>
     <td>
       <p align="left">
         <a href="https://github.com/kittinan/spotify-github-profile">
-          <img src="https://spotify-github-profile.vercel.app/api/view?uid=31m46cu6cyetx22aefgan7ga4h6a&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" width="300px" />
+          <img src="https://spotify-github-profile.vercel.app/api/view?uid=31m46cu6cyetx22aefgan7ga4h6a&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=31m46cu6cyetx22aefgan7ga4h6a&redirect=true)" width="300px" />
         </a>
       </p>
     </td>
     <td>
       <p align="right">
         <a href="https://github.com/anuraghazra/github-readme-stats">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=archangel-12&hide_progress=true" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=archangel-12&layout=compact" />
         </a>
       </p>
     </td>
   </tr>
 </table>
-
-<br/>
