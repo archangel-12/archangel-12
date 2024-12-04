@@ -8,13 +8,13 @@
   <tr>
     <td>
       <p align="left">
-        <a href="https://github.com/kittinan/spotify-github-profile" target="_blank">
+        <a href="https://github.com/kittinan/spotify-github-profile" target="__blank">
           <img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=qtaj6brxfgf51fl3iwa9er3ef&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" width="400px" />
         </a>
       </p>
     </td>
     <td>
-      <a href="https://lanyard.cnrad.dev" target="_blank">
+      <a href="https://lanyard.cnrad.dev" target="__blank">
           <img src="https://lanyard.cnrad.dev/api/1086625985761382430?theme=dark&hideDiscrim=true&borderRadius=30px&idleMessage=either%20hunting%20some%20good/offensive%20memes%20or%20plotting%20something%20bad%20for%20personal%20benefit" width="300px" />
         </a>
     </td>
@@ -23,4 +23,4 @@
 
 ---
 
--   :thought_balloon: i only active on <a href="https://discord.gg/memes" target="_blank">discord</a> :)
+-   :thought_balloon: i only active on <a href="https://discord.gg/memes" target="__blank">discord</a> :)
