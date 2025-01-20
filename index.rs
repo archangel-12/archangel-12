@@ -1,15 +1,24 @@
-use chrono::{Datelike, Utc};
 use std::fs;
+use std::time::{SystemTime, UNIX_EPOCH};
 
 fn main() {
-    let now = Utc::now();
-    let this_year = now.year();
+    let current_time = SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .expect("Time went backwards");
 
-    let start_of_year = Utc.ymd(this_year, 1, 1).and_hms(0, 0, 0);
-    let end_of_year = Utc.ymd(this_year, 12, 31).and_hms(23, 59, 59);
+    let this_year = chrono::Utc::now().year();
+    let start_of_year = SystemTime::from(UNIX_EPOCH)
+        .checked_add(std::time::Duration::from_secs(
+            (this_year as u64 - 1970) * 31_536_000,
+        ))
+        .expect("Invalid date");
 
-    let progress_of_this_year = (now.timestamp_millis() - start_of_year.timestamp_millis()) as f64
-        / (end_of_year.timestamp_millis() - start_of_year.timestamp_millis()) as f64;
+    let seconds_in_year = 365 * 24 * 60 * 60;
+    let progress_of_this_year = current_time
+        .duration_since(start_of_year)
+        .expect("Time calculation error")
+        .as_secs() as f64
+        / seconds_in_year as f64;
 
     let readme_path = "README.md";
     let mut readme_content = fs::read_to_string(readme_path).expect("Unable to read README.md");

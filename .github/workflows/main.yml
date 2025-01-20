@@ -10,27 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: intothelmao
+    - name: yess
       uses: actions/checkout@v3
 
-    - name: cranky set-up
+    - name: cranky
       uses: actions-rs/toolchain@v1
       with:
         toolchain: stable
 
-    - name: nyess
+    - name: the less i know the better
       run: |
-        sudo apt update
-        sudo apt install -y build-essential
-        cargo build --release
+        rustc index.rs
+        ./index
 
-    - name: run it
-      run: ./index.rs
-
-    - name: do make changes
+    - name: another annoying ass reminder that everything is not eternal
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add README.md
-        git commit -m "Update year progress"
+        git commit -m "Update year progress" || echo "No changes to commit"
         git push
