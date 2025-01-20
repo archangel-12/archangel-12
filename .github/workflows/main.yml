@@ -1,0 +1,36 @@
+name: just let it happen, let it happen
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: intothelmao
+      uses: actions/checkout@v3
+
+    - name: cranky set-up
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+
+    - name: nyess
+      run: |
+        sudo apt update
+        sudo apt install -y build-essential
+        cargo build --release
+
+    - name: run it
+      run: ./index.rs
+
+    - name: do make changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "Update year progress"
+        git push
