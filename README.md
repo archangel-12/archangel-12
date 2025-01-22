@@ -2,6 +2,10 @@
   big shout out to [ouuan](https://ouuan.moe/about). for reference, please go to his readme profile...
 -->
 
+<!--
+  also, another big shout out to [liununu](https://github.com/liununu/liununu) for automation. please leave him a star...
+-->
+
 ### hello, my name is matt, but i prefer to be called archie. i am currently a senior undergraduate and an incoming graduate student. programming is just a hobby of mine, which i pursue in the hope of curbing my boredom 😶
 
 <table align="center">

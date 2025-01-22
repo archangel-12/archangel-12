@@ -28,5 +28,5 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add README.md
-        git commit -m "Update year progress" || echo "No changes to commit"
+        git commit -m "update year progress" || echo "no need writing then"
         git push
