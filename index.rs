@@ -1,6 +1,8 @@
 /* this rust code is inspired by this repo: */
 /* https://github.com/liununu/liununu */
 /* please leave him a star and hopefully if you see this, umm, well, give me a star too */
+/* truth to be told, i just don't know why i use rust when you can do it in javascript :/ */
+/* but anyway, this is my implementation: */
 
 use std::fs;
 use std::time::{SystemTime, UNIX_EPOCH};
@@ -10,29 +12,29 @@ fn main() {
 
   let current_year = 1970 + current_time
     .duration_since(UNIX_EPOCH)
-    .expect("Time went backwards")
+    .expect("time went backwards")
     .as_secs() / 31_536_000;
 
   let start_of_year = UNIX_EPOCH
     .checked_add(std::time::Duration::from_secs(
       (current_year as u64 - 1970) * 31_536_000,
     ))
-    .expect("Invalid date");
+    .expect("invalid date");
 
   let is_leap_year = (current_year % 4 == 0 && current_year % 100 != 0) || (current_year % 400 == 0);
   let seconds_in_year = if is_leap_year { 366 * 24 * 60 * 60 } else { 365 * 24 * 60 * 60 };
 
   let progress_of_this_year = current_time
     .duration_since(start_of_year)
-    .expect("Time calculation error")
+    .expect("time calculation error")
     .as_secs() as f64
     / seconds_in_year as f64;
 
   let readme_path = "README.md";
-  let mut readme_content = fs::read_to_string(readme_path).expect("Unable to read README.md");
+  let mut readme_content = fs::read_to_string(readme_path).expect("unable to read README.md");
 
   let progress_info = format!(
-    "- Just so you know, {} is {:.2}% complete\n",
+    "- just so you know, {} is {:.2}% complete\n",
     current_year,
     progress_of_this_year * 100.0
   );
