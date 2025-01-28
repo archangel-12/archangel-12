@@ -27,5 +27,9 @@
 
 ---
 
+<<<<<<< HEAD
 - :thought_balloon: i only active on <a href="https://discord.gg/memes" target="__blank">discord</a> :)
 - just so you know, 2025 is 5.67% complete
+=======
+-   :thought_balloon: i only active on <a href="https://discord.gg/memes" target="__blank">discord</a> :)
+>>>>>>> refs/remotes/origin/main
