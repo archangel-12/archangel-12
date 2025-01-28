@@ -1,6 +1,6 @@
 /* this rust code is inspired by this repo: */
 /* https://github.com/liununu/liununu */
-/* please leave him a star and hopefully if you see this, umm, well, give me a star too */
+/* please leave him a star and hopefully if you see this, umm, well, gimme a star too („• ֊ •„) */
 /* truth to be told, i just don't know why i use rust when you can do it in javascript :/ */
 /* but anyway, this is my implementation: */
 
@@ -50,5 +50,5 @@ fn main() {
         }
     }
 
-    fs::write(readme_path, updated_content).expect("Unable to write to README.md");
+    fs::write(readme_path, updated_content).expect("cannot overwrite README.md");
 }
