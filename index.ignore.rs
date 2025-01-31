@@ -1,10 +1,7 @@
-/* this rust code is inspired by this repo: */
-/* https://github.com/liununu/liununu */
-/* please leave him a star and hopefully if you see this, umm, well, gimme a star too („• ֊ •„) */
-/* truth to be told, i just don't know why i use rust when you can do it in javascript :/ */
-/* but anyway, this is my implementation: */
+/* no use anymore since it can't compile to miliseconds */
+/* i don't know, maybe it's skill issue or somethin */
 
-use std::fs;
+/* use std::fs; 
 use std::time::{ SystemTime, UNIX_EPOCH };
 
 fn main() {
@@ -51,4 +48,4 @@ fn main() {
     }
 
     fs::write(readme_path, updated_content).expect("cannot overwrite README.md");
-}
+} */

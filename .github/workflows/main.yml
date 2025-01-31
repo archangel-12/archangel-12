@@ -13,14 +13,9 @@ jobs:
     - name: nyessss.....
       uses: actions/checkout@v3
 
-    - name: cranky
-      uses: actions-rs/toolchain@v1
-      with:
-        toolchain: stable
-
     - name: compile the script
       run: |
-        rustc index.rs
+        gcc index.c -o index
         ./index
 
     - name: the end...
