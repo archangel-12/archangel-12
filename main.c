@@ -1,8 +1,8 @@
 // this c code is inspired by this repo: //
 // https://github.com/liununu/liununu //
 // please leave him a star and hopefully if you see this, umm, well, gimme a star too („• ֊ •„) //
-// truth to be told, i just don't know why i use c when you can do it in javascript :/ //
-// but anyway, this is my implementation: //
+// truth to be told, i just don't know why i use c when it can be done in javascript :/ //
+// but anyways, this is my implementation: //
 
 #include <stdio.h>
 #include <time.h>
@@ -42,7 +42,7 @@ int main() {
 
     FILE *file = fopen(README_PATH, "r");
     if (!file) {
-        perror("Error opening README.md");
+        perror("there are no README.md attached :(");
         return 1;
     }
 
