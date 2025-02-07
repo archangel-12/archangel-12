@@ -16,16 +16,12 @@ int main() {
     time(&now);
 
     struct tm start_tm = {0}, end_tm = {0};
-
     struct tm *current_tm = localtime(&now);
     int thisYear = current_tm->tm_year + 1900;
 
     start_tm.tm_year = thisYear - 1900;
     start_tm.tm_mon = 0;
     start_tm.tm_mday = 1;
-    start_tm.tm_hour = 0;
-    start_tm.tm_min = 0;
-    start_tm.tm_sec = 0;
     time_t start_time = mktime(&start_tm);
 
     end_tm.tm_year = thisYear - 1900;
@@ -37,26 +33,25 @@ int main() {
     time_t end_time = mktime(&end_tm);
 
     double progress_of_this_year = (double)(now - start_time) / (end_time - start_time) * 100.0;
-
     printf("Progress: %.2f%%\n", progress_of_this_year);
 
     FILE *file = fopen(README_PATH, "r");
     if (!file) {
-        perror("there are no README.md attached :(");
+        perror("Error: README.md not found :(");
         return 1;
     }
 
-    char *content = NULL;
-    size_t length = 0;
     fseek(file, 0, SEEK_END);
-    length = ftell(file);
+    size_t length = ftell(file);
     fseek(file, 0, SEEK_SET);
-    content = malloc(length + 1);
+
+    char *content = malloc(length + 1);
     if (!content) {
-        perror("memory allocation error");
+        perror("Memory allocation error");
         fclose(file);
         return 1;
     }
+
     fread(content, 1, length, file);
     content[length] = '\0';
     fclose(file);
@@ -68,18 +63,22 @@ int main() {
         return 1;
     }
 
-    char *line = strtok(content, "\n");
+    char *saveptr;
+    char *line = strtok_r(content, "\n", &saveptr);
     while (line) {
         if (strncmp(line, "- just so you know,", 19) == 0) {
-            fprintf(file, "- just so you know, %d is %.2f%% complete\n", thisYear, progress_of_this_year);
+            fprintf(file, "- just so you know, %d is %.2f%% complete\n\n", thisYear, progress_of_this_year);
         } else {
             fprintf(file, "%s\n", line);
         }
-        line = strtok(NULL, "\n");
+        line = strtok_r(NULL, "\n", &saveptr);
     }
 
-    free(content);
+    fprintf(file, "\n");
+
+    fflush(file);
     fclose(file);
+    free(content);
 
     return 0;
 }
