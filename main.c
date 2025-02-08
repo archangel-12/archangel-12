@@ -11,14 +11,15 @@
 
 #define README_PATH "README.md"
 
-int main() {
+int main()
+{
     time_t now;
     time(&now);
 
-    struct tm start_tm = {0}, end_tm = {0};
     struct tm *current_tm = localtime(&now);
     int thisYear = current_tm->tm_year + 1900;
 
+    struct tm start_tm = {0}, end_tm = {0};
     start_tm.tm_year = thisYear - 1900;
     start_tm.tm_mon = 0;
     start_tm.tm_mday = 1;
@@ -36,7 +37,8 @@ int main() {
     printf("Progress: %.2f%%\n", progress_of_this_year);
 
     FILE *file = fopen(README_PATH, "r");
-    if (!file) {
+    if (!file)
+    {
         perror("Error: README.md not found :(");
         return 1;
     }
@@ -46,7 +48,8 @@ int main() {
     fseek(file, 0, SEEK_SET);
 
     char *content = malloc(length + 1);
-    if (!content) {
+    if (!content)
+    {
         perror("Memory allocation error");
         fclose(file);
         return 1;
@@ -57,24 +60,35 @@ int main() {
     fclose(file);
 
     file = fopen(README_PATH, "w");
-    if (!file) {
-        perror("Error opening README.md for writing");
+    if (!file)
+    {
+        perror("no README.md available");
         free(content);
         return 1;
     }
 
+    int found = 0;
     char *saveptr;
     char *line = strtok_r(content, "\n", &saveptr);
-    while (line) {
-        if (strncmp(line, "- just so you know,", 19) == 0) {
-            fprintf(file, "- just so you know, %d is %.2f%% complete\n\n", thisYear, progress_of_this_year);
-        } else {
+
+    while (line)
+    {
+        if (strncmp(line, "- just so you know,", 19) == 0)
+        {
+            fprintf(file, "- just so you know, %d is %.2f%% complete\n", thisYear, progress_of_this_year);
+            found = 1;
+        }
+        else
+        {
             fprintf(file, "%s\n", line);
         }
         line = strtok_r(NULL, "\n", &saveptr);
     }
 
-    fprintf(file, "\n");
+    if (!found)
+    {
+        fprintf(file, "- just so you know, %d is %.2f%% complete\n", thisYear, progress_of_this_year);
+    }
 
     fflush(file);
     fclose(file);
