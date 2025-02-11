@@ -15,7 +15,6 @@ int main()
 {
     time_t now;
     time(&now);
-
     struct tm *current_tm = localtime(&now);
     int thisYear = current_tm->tm_year + 1900;
 
@@ -39,7 +38,7 @@ int main()
     FILE *file = fopen(README_PATH, "r");
     if (!file)
     {
-        perror("Error: README.md not found :(");
+        perror("error: there are no readmme.md available");
         return 1;
     }
 
@@ -50,7 +49,7 @@ int main()
     char *content = malloc(length + 1);
     if (!content)
     {
-        perror("Memory allocation error");
+        perror("memory allocation error");
         fclose(file);
         return 1;
     }
@@ -62,7 +61,7 @@ int main()
     file = fopen(README_PATH, "w");
     if (!file)
     {
-        perror("no README.md available");
+        perror("error: cannot overwrite to README.md");
         free(content);
         return 1;
     }
@@ -73,7 +72,11 @@ int main()
 
     while (line)
     {
-        if (strncmp(line, "- just so you know,", 19) == 0)
+        if (strlen(line) == 0)
+        {
+            fprintf(file, "\n");
+        }
+        else if (strncmp(line, "- just so you know,", 19) == 0)
         {
             fprintf(file, "- just so you know, %d is %.2f%% complete\n", thisYear, progress_of_this_year);
             found = 1;
