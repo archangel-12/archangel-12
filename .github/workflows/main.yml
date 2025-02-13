@@ -13,10 +13,13 @@ jobs:
     - name: nyessss.....
       uses: actions/checkout@v3
 
-    - name: compile the script
-      run: |
-        gcc main.c -o main
-        ./main
+    - name: set up ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+
+    - name: run the script
+      run: ruby main.rb
 
     - name: the end...
       run: |
