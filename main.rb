@@ -1,8 +1,8 @@
-# this c code is inspired by this repo: //
-# https://github.com/liununu/liununu //
-# please leave him a star and hopefully if you see this, umm, well, gimme a star too („• ֊ •„) //
-# truth to be told, i just don't know why i use ruby when it can be done in javascript :/ //
-# but anyways, this is my implementation: //
+# this ruby script inspired by this repo:
+# https://github.com/liununu/liununu
+# please leave him a star and hopefully if you see this, umm, well, gimme a star too („• ֊ •„)
+# truth to be told, i just don't know why i use ruby when it can be done in javascript :/
+# but anyways, this is my implementation:
 
 require 'time'
 
