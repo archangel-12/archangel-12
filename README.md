@@ -4,7 +4,7 @@
 <!--
   also, another big shout out to [liununu](https://github.com/liununu/liununu) for automation. please leave him a star...
 -->
-### Hello, my name is Matt, but I prefer to be called Archie. I am currently a senior undergraduate and an incoming graduate student. Programming is just a hobby of mine, which I pursue in the hopes of curbing my boredom 😶
+### hello, my name is matt, but i prefer to be called archie. i am currently a senior undergraduate and an incoming graduate student. programming is just a hobby of mine, which i pursue in the hopes of curbing my boredom 😶
 <table align="center">
   <tr>
     <td>
