@@ -18,7 +18,7 @@ def year_progress
 end
 
 def update_readme(new_line)
-  readme_path = "readme.md"
+  readme_path = "README.md"
   if File.exist?(readme_path)
     content = File.read(readme_path)
     if content.match?(/just so you know, \d{4} is \d+\.\d+% complete/)
@@ -29,7 +29,7 @@ def update_readme(new_line)
     File.write(readme_path, updated_content)
     puts "✅ success :)"
   else
-    puts "❌ couldn't find readme.md :("
+    puts "❌ couldn't find the actual file :("
   end
 end
 
