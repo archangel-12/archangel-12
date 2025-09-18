@@ -23,6 +23,6 @@
 </table>
 
 - :thought_balloon: as of now, i'm only active on <a href="https://discord.gg/memes" target="__blank">discord</a> & <a href="https://twitter.com/xyz_archie" target="__blank">twitter</a> :)
-- just so you know, 2025 is 70.97% complete
+- just so you know, 2025 is 71.24% complete
 
 ![nothing is eternal](https://github.com/archangel-12/archangel-12/actions/workflows/main.yml/badge.svg?event=schedule)
